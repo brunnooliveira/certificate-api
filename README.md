@@ -2,6 +2,13 @@
 
 API para emissão de certificados
 
+Projeto desenvolvido com
+
+- NodeJS
+- Express
+- Handlebars
+- Puppeteer
+
 **Rodando o projeto:**
 
 ```
