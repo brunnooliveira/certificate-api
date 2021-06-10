@@ -11,5 +11,7 @@ const routes = express.Router();
 routes.get('/ping', CertificateController.ping);
 routes.post('/certificado', CertificateController.emit);
 
+app.use(express.json());
 app.use(routes);
+
 server.listen(process.env.PORT || 3333);
