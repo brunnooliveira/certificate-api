@@ -1,6 +1,6 @@
 ## Certificate
 
-APi para emissão de certificados
+API para emissão de certificados
 
 **Rodando o projeto:**
 
