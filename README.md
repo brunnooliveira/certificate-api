@@ -8,7 +8,7 @@ API para emissão de certificados
 npm install && npm start
 ```
 
-**Endpoint:**
+**Dev Local Endpoint**
 
 ```
 POST http://localhost:3333/certificado
@@ -22,4 +22,8 @@ POST http://localhost:3333/certificado
 }
 ```
 
-**Heroku**
+**Heroku Endpoint**
+
+```
+https://certificate-api-bgdo.herokuapp.com/certificado
+```
