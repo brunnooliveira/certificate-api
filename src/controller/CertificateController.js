@@ -10,6 +10,7 @@ class CertificateController {
       res.contentType('application/pdf');
       return res.send(certificate);
     } catch (error) {
+      console.error(error);
       res.status(500).send("Oops, we can't process your request!!!");
     }
   }
